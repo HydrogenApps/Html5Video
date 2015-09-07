@@ -115,3 +115,9 @@ window.plugins.html5Video.setVideoUrl("idofvideoelement", "video1", function url
   console.log("url have been added")
 })
 ```
+
+Get video's url using one of the videos from "initialize" above -
+
+```javascript
+var url = window.plugins.html5Video.getVideoUrl("video1")
+```

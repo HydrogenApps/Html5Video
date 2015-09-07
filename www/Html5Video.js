@@ -100,4 +100,10 @@ Html5Video.prototype._setVideoUrl = function(video, videoFileId) {
 	//video.setAttribute('poster', video.getAttribute('poster'));		
 }
 
+Html5Video.prototype.getVideoUrl = function (videoFileId) {
+    var me = this;
+    
+    return me._videos[videoFileId];
+}
+
 module.exports = new Html5Video();
